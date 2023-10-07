@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.Pane?>
+
+
+<Pane fx:id="pane1" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.demo5.HelloController">
+   <children>
+      <Button fx:id="button1" layoutX="41.0" layoutY="220.0" mnemonicParsing="false" onMouseClicked="#button1_Click" prefHeight="33.0" prefWidth="103.0" style="-fx-background-color: #C0C0C0;" text="СВОБОДНО" />
+      <Pane fx:id="pane2" layoutX="400.0" layoutY="8.0" prefHeight="206.0" prefWidth="200.0" style="-fx-border-color: #D2691E;" visible="false">
+         <children>
+            <Button fx:id="button13" layoutX="139.0" layoutY="174.0" mnemonicParsing="false" onMouseClicked="#button13_Click" style="-fx-background-color: #C0C0C0;" text="Выход" />
+            <Button fx:id="button10" layoutX="14.0" layoutY="75.0" mnemonicParsing="false" onMouseClicked="#button10_Click" prefHeight="25.0" prefWidth="112.0" style="-fx-background-color: #98FB98;" text="Сохранить" />
+            <TextField fx:id="textField1" layoutX="14.0" layoutY="33.0" style="-fx-background-color: #C0C0C0; -fx-border-color: #D2691E;" />
+            <Button fx:id="button12" layoutX="14.0" layoutY="149.0" mnemonicParsing="false" onMouseClicked="#button12_Click" prefHeight="25.0" prefWidth="112.0" style="-fx-background-color: #FA8072;" text="Удалить" />
+            <Button fx:id="button11" layoutX="14.0" layoutY="111.0" mnemonicParsing="false" onMouseClicked="#button11_Click" prefHeight="25.0" prefWidth="112.0" style="-fx-background-color: #F4A460;" text="Забронировать" />
+            <Label fx:id="label3" layoutX="14.0" layoutY="58.0" text="Неккоректный ввод" visible="false" />
+            <Label fx:id="label2" layoutX="14.0" layoutY="14.0" text="Введите ФИО" />
+         </children>
+      </Pane>
+      <Button fx:id="button2" layoutX="176.0" layoutY="220.0" mnemonicParsing="false" onMouseClicked="#button2_Click" prefHeight="33.0" prefWidth="103.0" style="-fx-background-color: #C0C0C0;" text="СВОБОДНО" />
+      <Button fx:id="button3" layoutX="312.0" layoutY="220.0" mnemonicParsing="false" onMouseClicked="#button3_Click" prefHeight="33.0" prefWidth="103.0" style="-fx-background-color: #C0C0C0;" text="СВОБОДНО" />
+      <Button fx:id="button4" layoutX="41.0" layoutY="271.0" mnemonicParsing="false" onMouseClicked="#button4_Click" prefHeight="33.0" prefWidth="103.0" style="-fx-background-color: #C0C0C0;" text="СВОБОДНО" />
+      <Button fx:id="button5" layoutX="176.0" layoutY="271.0" mnemonicParsing="false" onMouseClicked="#button5_Click" prefHeight="33.0" prefWidth="103.0" style="-fx-background-color: #C0C0C0;" text="СВОБОДНО" />
+      <Button fx:id="button6" layoutX="312.0" layoutY="271.0" mnemonicParsing="false" onMouseClicked="#button6_Click" prefHeight="33.0" prefWidth="103.0" style="-fx-background-color: #C0C0C0;" text="СВОБОДНО" />
+      <Button fx:id="button7" layoutX="41.0" layoutY="323.0" mnemonicParsing="false" onMouseClicked="#button7_Click" prefHeight="33.0" prefWidth="103.0" style="-fx-background-color: #C0C0C0;" text="СВОБОДНО" />
+      <Button fx:id="button8" layoutX="176.0" layoutY="323.0" mnemonicParsing="false" onMouseClicked="#button8_Click" prefHeight="33.0" prefWidth="103.0" style="-fx-background-color: #C0C0C0;" text="СВОБОДНО" />
+      <Button fx:id="button9" layoutX="312.0" layoutY="323.0" mnemonicParsing="false" onMouseClicked="#button9_Click" prefHeight="33.0" prefWidth="103.0" style="-fx-background-color: #C0C0C0;" text="СВОБОДНО" />
+   </children>
+</Pane>
